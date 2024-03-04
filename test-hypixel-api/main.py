@@ -6,7 +6,6 @@ import requests
 
 sleep_till: Optional[datetime] = None
 num_api_calls_made: int = 0
-sleep_till: Optional[datetime] = None
 def getJSON(api_key: str, typeOfRequest: str, uuid: str) -> dict:
     """ This function is used for getting a JSON from Hypixel's Public API. """
     global sleep_till
